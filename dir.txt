@@ -1,0 +1,8 @@
+/images              [36m (Status: 301)[0m [Size: 178][34m [--> http://devvortex.htb/images/][0m
+/index.html          [32m (Status: 200)[0m [Size: 18048]
+/about.html          [32m (Status: 200)[0m [Size: 7388]
+/contact.html        [32m (Status: 200)[0m [Size: 8884]
+/css                 [36m (Status: 301)[0m [Size: 178][34m [--> http://devvortex.htb/css/][0m
+/do.html             [32m (Status: 200)[0m [Size: 7603]
+/portfolio.html      [32m (Status: 200)[0m [Size: 6845]
+/js                  [36m (Status: 301)[0m [Size: 178][34m [--> http://devvortex.htb/js/][0m

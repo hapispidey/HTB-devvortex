@@ -1,0 +1,144 @@
+# Dirsearch started Mon Feb  5 19:49:17 2024 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u dev.devvortex.htb -o sub_dir.txt
+
+404    16B   http://dev.devvortex.htb/php
+403   564B   http://dev.devvortex.htb/%2e%2e;/test
+404    16B   http://dev.devvortex.htb/adminphp
+403   564B   http://dev.devvortex.htb/admin/.config
+301   178B   http://dev.devvortex.htb/administrator    -> REDIRECTS TO: http://dev.devvortex.htb/administrator/
+200    31B   http://dev.devvortex.htb/administrator/cache/
+403   564B   http://dev.devvortex.htb/administrator/includes/
+200    12KB  http://dev.devvortex.htb/administrator/index.php
+301   178B   http://dev.devvortex.htb/administrator/logs    -> REDIRECTS TO: http://dev.devvortex.htb/administrator/logs/
+200    31B   http://dev.devvortex.htb/administrator/logs/
+200    12KB  http://dev.devvortex.htb/administrator/
+403   564B   http://dev.devvortex.htb/admrev/.ftppass
+403   564B   http://dev.devvortex.htb/admpar/.ftppass
+301   178B   http://dev.devvortex.htb/api    -> REDIRECTS TO: http://dev.devvortex.htb/api/
+404    54B   http://dev.devvortex.htb/api/
+404    54B   http://dev.devvortex.htb/api/2/explore/
+404    54B   http://dev.devvortex.htb/api/__swagger__/
+404    54B   http://dev.devvortex.htb/api/2/issue/createmeta
+404    54B   http://dev.devvortex.htb/api/api
+404    54B   http://dev.devvortex.htb/api/apidocs/swagger.json
+404    54B   http://dev.devvortex.htb/api/_swagger_/
+404    54B   http://dev.devvortex.htb/api/api-docs
+404    54B   http://dev.devvortex.htb/api/apidocs
+404    54B   http://dev.devvortex.htb/api/application.wadl
+404    54B   http://dev.devvortex.htb/api/batch
+404    54B   http://dev.devvortex.htb/api/config
+404    54B   http://dev.devvortex.htb/api/docs
+404    54B   http://dev.devvortex.htb/api/error_log
+404    54B   http://dev.devvortex.htb/api/jsonws
+404    54B   http://dev.devvortex.htb/api/jsonws/invoke
+404    54B   http://dev.devvortex.htb/api/login.json
+404    54B   http://dev.devvortex.htb/api/proxy
+404    54B   http://dev.devvortex.htb/api/profile
+404    54B   http://dev.devvortex.htb/api/spec/swagger.json
+404    54B   http://dev.devvortex.htb/api/snapshots
+404    54B   http://dev.devvortex.htb/api/swagger
+404    54B   http://dev.devvortex.htb/api/swagger-ui.html
+404    54B   http://dev.devvortex.htb/api/swagger.yml
+404    54B   http://dev.devvortex.htb/api/swagger.json
+404    54B   http://dev.devvortex.htb/api/swagger/static/index.html
+404    54B   http://dev.devvortex.htb/api/timelion/run
+404    54B   http://dev.devvortex.htb/api/swagger/swagger
+404    54B   http://dev.devvortex.htb/api/swagger/ui/index
+404    54B   http://dev.devvortex.htb/api/v1
+404    54B   http://dev.devvortex.htb/api/docs/
+404    54B   http://dev.devvortex.htb/api/v1/
+404    54B   http://dev.devvortex.htb/api/v1/swagger.json
+404    54B   http://dev.devvortex.htb/api/cask/graphql
+404    54B   http://dev.devvortex.htb/api/v1/swagger.yaml
+404    54B   http://dev.devvortex.htb/api/v2/helpdesk/discover
+404    54B   http://dev.devvortex.htb/api/v2/swagger.json
+404    54B   http://dev.devvortex.htb/api/v2
+404    54B   http://dev.devvortex.htb/api/v2/
+404    54B   http://dev.devvortex.htb/api/whoami
+404    54B   http://dev.devvortex.htb/api/v4
+404    54B   http://dev.devvortex.htb/api/v2/swagger.yaml
+404    54B   http://dev.devvortex.htb/api/vendor/phpunit/phpunit/phpunit
+404    54B   http://dev.devvortex.htb/api/version
+404    54B   http://dev.devvortex.htb/api/index.html
+404    54B   http://dev.devvortex.htb/api/swagger.yaml
+404    54B   http://dev.devvortex.htb/api/swagger/index.html
+404    54B   http://dev.devvortex.htb/api/v3
+404    54B   http://dev.devvortex.htb/api/package_search/v4/documentation
+403   564B   http://dev.devvortex.htb/bitrix/.settings.php.bak
+403   564B   http://dev.devvortex.htb/bitrix/.settings
+403   564B   http://dev.devvortex.htb/bitrix/.settings.bak
+301   178B   http://dev.devvortex.htb/cache    -> REDIRECTS TO: http://dev.devvortex.htb/cache/
+200    31B   http://dev.devvortex.htb/cache/
+403     4KB  http://dev.devvortex.htb/cache/sql_error_latest.cgi
+200    31B   http://dev.devvortex.htb/cli/
+301   178B   http://dev.devvortex.htb/components    -> REDIRECTS TO: http://dev.devvortex.htb/components/
+200    31B   http://dev.devvortex.htb/components/
+200     0B   http://dev.devvortex.htb/configuration.php
+403   564B   http://dev.devvortex.htb/ext/.deps
+200     7KB  http://dev.devvortex.htb/htaccess.txt
+301   178B   http://dev.devvortex.htb/images    -> REDIRECTS TO: http://dev.devvortex.htb/images/
+403     4KB  http://dev.devvortex.htb/images/Sym.php
+200    31B   http://dev.devvortex.htb/images/
+301   178B   http://dev.devvortex.htb/includes    -> REDIRECTS TO: http://dev.devvortex.htb/includes/
+200    31B   http://dev.devvortex.htb/includes/
+403     4KB  http://dev.devvortex.htb/images/c99.php
+301   178B   http://dev.devvortex.htb/language    -> REDIRECTS TO: http://dev.devvortex.htb/language/
+200    31B   http://dev.devvortex.htb/layouts/
+403   564B   http://dev.devvortex.htb/lib/flex/uploader/.actionScriptProperties
+403   564B   http://dev.devvortex.htb/lib/flex/uploader/.flexProperties
+403   564B   http://dev.devvortex.htb/lib/flex/uploader/.project
+403   564B   http://dev.devvortex.htb/lib/flex/varien/.actionScriptProperties
+403   564B   http://dev.devvortex.htb/lib/flex/varien/.project
+403   564B   http://dev.devvortex.htb/lib/flex/varien/.settings
+301   178B   http://dev.devvortex.htb/libraries    -> REDIRECTS TO: http://dev.devvortex.htb/libraries/
+200    31B   http://dev.devvortex.htb/libraries/
+403   564B   http://dev.devvortex.htb/lib/flex/uploader/.settings
+403   564B   http://dev.devvortex.htb/lib/flex/varien/.flexLibProperties
+200    18KB  http://dev.devvortex.htb/LICENSE.txt
+403   564B   http://dev.devvortex.htb/mailer/.env
+301   178B   http://dev.devvortex.htb/media    -> REDIRECTS TO: http://dev.devvortex.htb/media/
+200    31B   http://dev.devvortex.htb/media/
+301   178B   http://dev.devvortex.htb/modules    -> REDIRECTS TO: http://dev.devvortex.htb/modules/
+200    31B   http://dev.devvortex.htb/modules/
+404    16B   http://dev.devvortex.htb/myadminphp
+301   178B   http://dev.devvortex.htb/plugins    -> REDIRECTS TO: http://dev.devvortex.htb/plugins/
+200    31B   http://dev.devvortex.htb/plugins/
+200     5KB  http://dev.devvortex.htb/README.txt
+403   564B   http://dev.devvortex.htb/resources/.arch-internal-preview.css
+403   564B   http://dev.devvortex.htb/resources/sass/.sass-cache/
+200   764B   http://dev.devvortex.htb/robots.txt
+404     4KB  http://dev.devvortex.htb/secure/ConfigurePortalPages!default.jspa?view=popular
+301   178B   http://dev.devvortex.htb/templates    -> REDIRECTS TO: http://dev.devvortex.htb/templates/
+200    31B   http://dev.devvortex.htb/templates/
+200    31B   http://dev.devvortex.htb/templates/index.html
+200     0B   http://dev.devvortex.htb/templates/system/
+200    31B   http://dev.devvortex.htb/tmp/
+403     4KB  http://dev.devvortex.htb/tmp/2.php
+403     4KB  http://dev.devvortex.htb/tmp/admin.php
+403     4KB  http://dev.devvortex.htb/tmp/cgi.pl
+403     4KB  http://dev.devvortex.htb/tmp/Cgishell.pl
+403     4KB  http://dev.devvortex.htb/tmp/changeall.php
+403     4KB  http://dev.devvortex.htb/tmp/d0maine.php
+403     4KB  http://dev.devvortex.htb/tmp/cpn.php
+403     4KB  http://dev.devvortex.htb/tmp/domaine.pl
+403     4KB  http://dev.devvortex.htb/tmp/d.php
+403     4KB  http://dev.devvortex.htb/tmp/domaine.php
+403     4KB  http://dev.devvortex.htb/tmp/dz1.php
+403     4KB  http://dev.devvortex.htb/tmp/dz.php
+403     4KB  http://dev.devvortex.htb/tmp/index.php
+403     4KB  http://dev.devvortex.htb/tmp/L3b.php
+403     4KB  http://dev.devvortex.htb/tmp/killer.php
+403     4KB  http://dev.devvortex.htb/tmp/Sym.php
+403     4KB  http://dev.devvortex.htb/tmp/madspotshell.php
+403     4KB  http://dev.devvortex.htb/tmp/priv8.php
+403     4KB  http://dev.devvortex.htb/tmp/sql.php
+403     4KB  http://dev.devvortex.htb/tmp/upload.php
+403     4KB  http://dev.devvortex.htb/tmp/up.php
+403     4KB  http://dev.devvortex.htb/tmp/user.php
+403     4KB  http://dev.devvortex.htb/tmp/uploads.php
+403     4KB  http://dev.devvortex.htb/tmp/vaga.php
+403     4KB  http://dev.devvortex.htb/tmp/xd.php
+403     4KB  http://dev.devvortex.htb/tmp/root.php
+403     4KB  http://dev.devvortex.htb/tmp/whmcs.php
+403   564B   http://dev.devvortex.htb/twitter/.env
+301   178B   http://dev.devvortex.htb/tmp    -> REDIRECTS TO: http://dev.devvortex.htb/tmp/
+200     3KB  http://dev.devvortex.htb/web.config.txt

